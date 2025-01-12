@@ -48,9 +48,9 @@
     }@inputs:
     let
       # Declare some user variables
-      username = "vincenzo";
-      fullName = "Vincenzo Pace";
-      mail = "vincenzo.pace94@icloud.com";
+      username = "marius";
+      fullName = "Marius Respondek";
+      mail = "respondek@amiconsult.de";
 
       # Desktop specific modules and settings
       commonNixosModules = [
@@ -102,6 +102,7 @@
         asgar = makeNixosSystem "asgar";
         valnar = makeNixosSystem "valnar";
         dracula = makeNixosSystem "dracula";
+	nixsilden = makeNixosSystem "nixsilden";
 
         #Server
         alucard = nixpkgs.lib.nixosSystem {

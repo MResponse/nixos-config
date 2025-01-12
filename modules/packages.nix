@@ -27,6 +27,7 @@
     unrar
     pigz
 
+
     (inputs.unstable.legacyPackages.x86_64-linux.pferd)
     # secrets
     age
@@ -99,6 +100,9 @@
     picard # audio tagger
     vdhcoapp # companion app for firefox video download helper
 
+    #MariusApps
     citrix_workspace
+    keepassxc
+    ispell
   ];
 }

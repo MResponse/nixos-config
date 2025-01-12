@@ -33,6 +33,7 @@
 
       # See https://wiki.hyprland.org/Configuring/Monitors/
       monitor=,preferred,auto,auto
+      monitor = HDMI-A-1,4096x2160@119,0x0, 1
 
       input {
           kb_layout = us,de
